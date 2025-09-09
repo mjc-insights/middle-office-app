@@ -1,0 +1,13 @@
+security_id,company_name,asset_class,currency,country,mic,settlement_cycle,sector,active_flag
+AAPL,Apple Inc,Equity,USD,US,XNAS,T+1,TECHNOLOGY,True
+MSFT,Microsoft Corporation,Equity,USD,US,XNAS,T+1,TECHNOLOGY,True
+AMZN,Amazon.com Inc,Equity,USD,US,XNAS,T+1,TRADE & SERVICES,True
+GOOGL,Alphabet Inc Class A,Equity,USD,US,XNAS,T+1,TECHNOLOGY,True
+META,Meta Platforms Inc.,Equity,USD,US,XNAS,T+1,TECHNOLOGY,True
+NVDA,NVIDIA Corporation,Equity,USD,US,XNAS,T+1,MANUFACTURING,True
+TSLA,Tesla Inc,Equity,USD,US,XNAS,T+1,MANUFACTURING,True
+JPM,JPMorgan Chase & Co,Equity,USD,US,XNYS,T+1,FINANCE,True
+BAC,Bank of America Corp,Equity,USD,US,XNYS,T+1,FINANCE,True
+XOM,Exxon Mobil Corp,Equity,USD,US,XNYS,T+1,ENERGY & TRANSPORTATION,True
+UNH,UnitedHealth Group Incorporated,Equity,USD,US,XNYS,T+1,FINANCE,True
+T,AT&T Inc,Equity,USD,US,XNYS,T+1,TECHNOLOGY,True

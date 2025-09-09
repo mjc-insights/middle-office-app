@@ -1,0 +1,25 @@
+trade_date,settlement_date,side,quantity,security_id,price,counterparty_legal_name,dq_seed_issue,is_seed_bad
+2025-08-14,2025-08-15,Buy,5000,NVDA,182.02,Jefferies LLC,,False
+2025-08-14,2025-08-15,Buy,500,BAC,,J.P. Morgan Securities LLC,missing_price,True
+2025-08-14,2025-08-15,Sell,200,META,782.13,Citigroup Global Markets Inc.,,False
+2025-08-14,2025-08-16,Sell,5000,MSFT,522.48,UBS Securities LLC,weekend_settlement,True
+2025-08-14,2025-08-15,Sell,200,GOOGL,202.94,"Wells Fargo Securities, LLC",,False
+2025-08-14,2025-08-15,Sell,100,NVDA,182.02,Deutsche Bank Securities Inc.,,False
+2025-08-14,2025-08-15,Sell,2500,MSFT,522.48,UBS Securities LLC,,False
+2025-08-14,2025-08-15,BUY,1000,GOOGL,202.94,"BofA Securities, Inc.",invalid_side,True
+2025-08-14,2025-08-15,Buy,5000,JPM,294.16,Barclays Capital Inc.,,False
+2025-08-14,2025-08-15,Sell,100,T,28.75,Morgan Stanley & Co. LLC,,False
+2025-08-14,2025-08-15,Sell,100,AAPL,232.78,Goldman Sachs & Co. LLC,,False
+2025-08-14,2025-08-15,Buy,100,AMZN,230.98,Morgan Stanley & Co. LLC,,False
+2025-08-14,2025-08-15,Sell,100,AMZN,230.98,"BofA Securities, Inc.",,False
+2025-08-14,2025-08-15,Sell,200,JPM,294.16,Nonexistent Broker LLC,unknown_counterparty,True
+2025-08-14,2025-08-15,Buy,100,,,Goldman Sachs & Co. LLC,missing_security_id,True
+2025-08-14,2025-08-15,Buy,500,BAC,47.71,Interactive Brokers LLC,,False
+2025-08-14,2025-08-15,Sell,500,AAPL,232.78,BNP Paribas Securities Corp.,,False
+2025-08-14,2025-08-18,Buy,2500,META,782.13,Citigroup Global Markets Inc.,bad_settlement_cycle,True
+2025-08-14,2025-08-15,Buy,200,BAC,47.71,J.P. Morgan Securities LLC,,False
+2025-08-14,2025-08-15,Buy,100,T,28.75,Goldman Sachs & Co. LLC,,False
+2025-08-14,2025-08-15,Buy,2500,GOOGL,202.94,"BofA Securities, Inc.",,False
+2025-08-14,2025-08-15,Sell,0,AMZN,230.98,Morgan Stanley & Co. LLC,quantity_zero,True
+2025-08-14,2025-08-15,Sell,500,UNH,271.49,J.P. Morgan Securities LLC,,False
+2025-08-14,2025-08-15,Buy,100,NVDA,182.02,,missing_counterparty,True

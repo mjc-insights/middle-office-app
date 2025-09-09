@@ -1,0 +1,17 @@
+trade_date,settlement_date,side,quantity,security_id,price,counterparty_legal_name,dq_seed_issue,is_seed_bad,Rule Code,Exception Reason,_pass_r1_r2,stp_ready,match_key
+2025-08-14,2025-08-15,Buy,5000,NVDA,182.02,Jefferies LLC,,False,,,True,True,2025-08-14|Buy|NVDA|5000|182.02|Jefferies LLC
+2025-08-14,2025-08-15,Sell,200,META,782.13,Citigroup Global Markets Inc.,,False,,,True,True,2025-08-14|Sell|META|200|782.13|Citigroup Global Markets Inc.
+2025-08-14,2025-08-15,Sell,200,GOOGL,202.94,"Wells Fargo Securities, LLC",,False,,,True,True,"2025-08-14|Sell|GOOGL|200|202.94|Wells Fargo Securities, LLC"
+2025-08-14,2025-08-15,Sell,100,NVDA,182.02,Deutsche Bank Securities Inc.,,False,,,True,True,2025-08-14|Sell|NVDA|100|182.02|Deutsche Bank Securities Inc.
+2025-08-14,2025-08-15,Sell,2500,MSFT,522.48,UBS Securities LLC,,False,,,True,True,2025-08-14|Sell|MSFT|2500|522.48|UBS Securities LLC
+2025-08-14,2025-08-15,Buy,5000,JPM,294.16,Barclays Capital Inc.,,False,,,True,True,2025-08-14|Buy|JPM|5000|294.16|Barclays Capital Inc.
+2025-08-14,2025-08-15,Sell,100,T,28.75,Morgan Stanley & Co. LLC,,False,,,True,True,2025-08-14|Sell|T|100|28.75|Morgan Stanley & Co. LLC
+2025-08-14,2025-08-15,Sell,100,AAPL,232.78,Goldman Sachs & Co. LLC,,False,,,True,True,2025-08-14|Sell|AAPL|100|232.78|Goldman Sachs & Co. LLC
+2025-08-14,2025-08-15,Buy,100,AMZN,230.98,Morgan Stanley & Co. LLC,,False,,,True,True,2025-08-14|Buy|AMZN|100|230.98|Morgan Stanley & Co. LLC
+2025-08-14,2025-08-15,Sell,100,AMZN,230.98,"BofA Securities, Inc.",,False,,,True,True,"2025-08-14|Sell|AMZN|100|230.98|BofA Securities, Inc."
+2025-08-14,2025-08-15,Buy,500,BAC,47.71,Interactive Brokers LLC,,False,,,True,True,2025-08-14|Buy|BAC|500|47.71|Interactive Brokers LLC
+2025-08-14,2025-08-15,Sell,500,AAPL,232.78,BNP Paribas Securities Corp.,,False,,,True,True,2025-08-14|Sell|AAPL|500|232.78|BNP Paribas Securities Corp.
+2025-08-14,2025-08-15,Buy,200,BAC,47.71,J.P. Morgan Securities LLC,,False,,,True,True,2025-08-14|Buy|BAC|200|47.71|J.P. Morgan Securities LLC
+2025-08-14,2025-08-15,Buy,100,T,28.75,Goldman Sachs & Co. LLC,,False,,,True,True,2025-08-14|Buy|T|100|28.75|Goldman Sachs & Co. LLC
+2025-08-14,2025-08-15,Buy,2500,GOOGL,202.94,"BofA Securities, Inc.",,False,,,True,True,"2025-08-14|Buy|GOOGL|2500|202.94|BofA Securities, Inc."
+2025-08-14,2025-08-15,Sell,500,UNH,271.49,J.P. Morgan Securities LLC,,False,,,True,True,2025-08-14|Sell|UNH|500|271.49|J.P. Morgan Securities LLC

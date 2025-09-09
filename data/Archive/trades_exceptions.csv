@@ -1,0 +1,9 @@
+trade_date,settlement_date,side,quantity,security_id,price,counterparty_legal_name,dq_seed_issue,is_seed_bad,Rule Code,Exception Reason,_pass_r1_r2,stp_ready,match_key
+2025-08-14,2025-08-15,Buy,500,BAC,,J.P. Morgan Securities LLC,missing_price,True,presence_missing_field,Missing required field,False,False,2025-08-14|Buy|BAC|500|nan|J.P. Morgan Securities LLC
+2025-08-14,2025-08-16,Sell,5000,MSFT,522.48,UBS Securities LLC,weekend_settlement,True,bad_settlement_cycle,Settlement date does not match settlement cycle,True,False,2025-08-14|Sell|MSFT|5000|522.48|UBS Securities LLC
+2025-08-14,2025-08-15,BUY,1000,GOOGL,202.94,"BofA Securities, Inc.",invalid_side,True,invalid_side,Side must be Buy or Sell,False,False,"2025-08-14|BUY|GOOGL|1000|202.94|BofA Securities, Inc."
+2025-08-14,2025-08-15,Sell,200,JPM,294.16,Nonexistent Broker LLC,unknown_counterparty,True,unknown_counterparty,Counterparty not found or inactive,True,False,2025-08-14|Sell|JPM|200|294.16|Nonexistent Broker LLC
+2025-08-14,2025-08-15,Buy,100,nan,,Goldman Sachs & Co. LLC,missing_security_id,True,presence_missing_field,Missing required field,False,False,2025-08-14|Buy|nan|100|nan|Goldman Sachs & Co. LLC
+2025-08-14,2025-08-18,Buy,2500,META,782.13,Citigroup Global Markets Inc.,bad_settlement_cycle,True,bad_settlement_cycle,Settlement date does not match settlement cycle,True,False,2025-08-14|Buy|META|2500|782.13|Citigroup Global Markets Inc.
+2025-08-14,2025-08-15,Sell,0,AMZN,230.98,Morgan Stanley & Co. LLC,quantity_zero,True,quantity_nonpositive,Quantity must be > 0,False,False,2025-08-14|Sell|AMZN|0|230.98|Morgan Stanley & Co. LLC
+2025-08-14,2025-08-15,Buy,100,NVDA,182.02,nan,missing_counterparty,True,unknown_counterparty,Counterparty not found or inactive,True,False,2025-08-14|Buy|NVDA|100|182.02|nan

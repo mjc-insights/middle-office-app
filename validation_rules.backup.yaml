@@ -1,0 +1,85 @@
+# Validation rules configuration for PE Middle Office App
+# Scope: U.S. equities trade validation and STP readiness checks
+# Edit messages/owners without changing code behavior.
+
+version: "2025-08-17"
+rules:
+  - code: presence_missing_field
+    category: schema
+    severity: critical
+    owner: Middle Office + Trading
+    message: "Missing required field"
+    fields_required: [trade_date, settlement_date, side, quantity, security_id, price, counterparty_legal_name]
+    action: "Do not process. Fix missing fields, then re-run validation."
+
+  - code: quantity_nonpositive
+    category: schema
+    severity: critical
+    owner: Middle Office + Trading
+    message: "Quantity must be > 0"
+    check: "quantity > 0"
+    action: "Correct quantity to a positive value."
+
+  - code: price_nonpositive
+    category: schema
+    severity: critical
+    owner: Middle Office + Trading
+    message: "Price must be > 0"
+    check: "price > 0"
+    action: "Correct price to a positive value."
+
+  - code: invalid_side
+    category: schema
+    severity: critical
+    owner: Middle Office + Trading
+    message: "Side must be Buy or Sell"
+    allowed_values: [Buy, Sell]
+    action: "Correct the side value."
+
+  - code: unknown_security
+    category: business
+    severity: high
+    owner: Reference Data
+    message: "Security not found or inactive"
+    check: "security_id in active security master"
+    action: "Onboard/activate security in the Security Master."
+
+  - code: unknown_counterparty
+    category: business
+    severity: high
+    owner: Middle Office (Ops)
+    message: "Counterparty not found or inactive"
+    check: "counterparty_legal_name in active SSI"
+    action: "Add/activate counterparty in SSI or correct name on trade."
+
+  - code: incomplete_ssi
+    category: business
+    severity: high
+    owner: Middle Office (Ops)
+    message: "Missing SSI depository/cash details for US Equities"
+    check: "for market == 'US Equities', require depository_account and cash_account"
+    action: "Obtain and update SSI depository and cash account details."
+
+  - code: bad_settlement_cycle
+    category: settlement
+    severity: high
+    owner: Middle Office (Ops)
+    message: "Settlement date does not match configured cycle"
+    check: "settlement_date == trade_date + N business days (N from security_master.settlement_cycle)"
+    action: "Fix trade settlement date or correct security's settlement_cycle."
+
+  - code: weekend_or_holiday_settlement
+    category: settlement
+    severity: high
+    owner: Middle Office (Ops)
+    message: "Settlement date falls on weekend/holiday"
+    check: "settlement_date not in weekend and not in holiday_calendar"
+    action: "Move to next valid business day."
+
+# Optional: parameters the app can read (e.g., confirm matching tolerances)
+parameters:
+  price_tolerance_bps: 5        # 5 bps tolerance for price compare (if used later)
+  price_tolerance_abs: 0.02     # $0.02 absolute tolerance (if used later)
+  quantity_tolerance: 0         # quantities must match exactly for equities
+
+

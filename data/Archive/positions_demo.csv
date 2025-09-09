@@ -1,0 +1,12 @@
+Ticker,Quantity,Cost_Basis,Lot_Date,Account,Counterparty,settlement_date,status,sector,industry,trade_type
+AAPL,100,229.12,2025-07-10,Prime-001,Goldman Sachs & Co. LLC,2025-07-11,Settled,Technology,Consumer Electronics,Buy
+MSFT,50,518.75,2025-07-11,Prime-001,Morgan Stanley & Co. LLC,2025-07-14,Settled,Technology,Software,Buy
+GOOGL,75,201.50,2025-07-12,Prime-001,J.P. Morgan Securities LLC,2025-07-14,Settled,Communication Services,Interactive Media & Services,Sell
+AMZN,200,229.30,2025-07-15,Prime-001,Citigroup Global Markets Inc.,2025-07-16,Settled,Consumer Discretionary,Internet & Direct Marketing Retail,Buy
+TSLA,150,331.45,2025-07-16,Prime-001,"BofA Securities, Inc.",2025-07-17,Settled,Consumer Discretionary,Automobiles,Buy
+NVDA,80,174.60,2025-07-17,Prime-001,UBS Securities LLC,2025-07-18,Settled,Technology,Semiconductors,Buy
+META,120,772.25,2025-07-18,Prime-001,Morgan Stanley & Co. LLC,2025-07-21,Settled,Communication Services,Interactive Media & Services,Buy
+NFLX,90,1218.40,2025-07-19,Prime-001,J.P. Morgan Securities LLC,2025-07-21,Settled,Communication Services,Entertainment,Buy
+CRM,200,231.10,2025-07-20,Prime-001,Citigroup Global Markets Inc.,2025-07-21,Settled,Technology,Software,Buy
+ADBE,150,347.10,2025-07-21,Prime-001,"BofA Securities, Inc.",2025-07-22,Settled,Technology,Software,Buy
+

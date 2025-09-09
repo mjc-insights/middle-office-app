@@ -1,0 +1,35 @@
+﻿# Excel file reading/writing - needed for processing .xlsx files
+# Enables reading/writing Excel files programmatically
+openpyxl==3.1.5
+
+# Data manipulation and analysis - core library for handling CSV/Excel data
+# Offers powerful DataFrame structures and data processing tools essential for financial data analysis
+pandas==2.3.1
+
+# Environment variable management - for API keys and configuration
+# Securely loads environment variables from .env files to keep sensitive configuration data separate from code
+python-dotenv==1.1.1
+
+# HTTP requests - for API calls to external services
+# Enables communication with external APIs and web services for data retrieval and integration
+requests==2.32.4
+
+# Web application framework - creates the main web interface
+# Builds interactive web applications with Python, perfect for creating dashboards and data visualization tools
+streamlit==1.48.0
+
+# Interactive data grid for Streamlit - enhances table display and editing
+# Provides advanced table functionality including sorting, filtering, and inline editing for better user experience
+streamlit-aggrid>=0.3.3
+
+# Market calendar utilities - for business day calculations and trading schedules
+# Handles business day logic, holiday calendars, and trading day calculations specific to financial markets
+pandas_market_calendars>=4.4.2
+
+# YAML parsing for rule catalog
+PyYAML>=6.0.1
+openai
+langchain
+tiktoken
+faiss-cpu
+python-dotenv

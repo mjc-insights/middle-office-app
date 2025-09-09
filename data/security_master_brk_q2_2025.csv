@@ -1,0 +1,42 @@
+ticker,description,cusip,exchange,currency,security_type,sector,industry,country
+AXP,American Express Co,025816109,NYSE,USD,Common Stock,Financials,Consumer Finance,US
+BAC,Bank of America Corp,060505104,NYSE,USD,Common Stock,Financials,Banks,US
+COF,Capital One Financial Corp,14040H105,NYSE,USD,Common Stock,Financials,Consumer Finance,US
+AON,Aon plc Class A,G0403H108,NYSE,USD,Common Stock,Financials,Insurance Brokers,IE
+MA,Mastercard Inc Class A,57636Q104,NYSE,USD,Common Stock,Information Technology,Data Processing & Outsourced Svcs,US
+MCO,Moody's Corp,615369105,NYSE,USD,Common Stock,Financials,Financial Data & Analytics,US
+JEF,Jefferies Financial Group Inc,47233W109,NYSE,USD,Common Stock,Financials,Investment Banking & Brokerage,US
+AAPL,Apple Inc,037833100,NASDAQ,USD,Common Stock,Information Technology,Technology Hardware,US
+AMZN,Amazon.com Inc,023135106,NASDAQ,USD,Common Stock,Consumer Discretionary,Broadline Retail / Internet,US
+VRSN,VeriSign Inc,92343E102,NASDAQ,USD,Common Stock,Information Technology,Internet Services & Infrastructure,US
+V,Visa Inc Class A,92826C839,NYSE,USD,Common Stock,Information Technology,Data Processing & Outsourced Svcs,US
+CHTR,Charter Communications Inc Class A,16119P108,NASDAQ,USD,Common Stock,Communication Services,Cable & Satellite,US
+SIRI,Sirius XM Holdings Inc,829933100,NASDAQ,USD,Common Stock,Communication Services,Media,US
+BATRK,Atlanta Braves Holdings Inc C,047726302,NASDAQ,USD,Common Stock,Communication Services,Entertainment,US
+FWONK,Liberty Media Formula One C,531229854,NASDAQ,USD,Common Stock,Communication Services,Entertainment,US
+LLYVA,Liberty Media Liberty Live A,531229748,NASDAQ,USD,Common Stock,Communication Services,Entertainment,US
+LLYVK,Liberty Media Liberty Live C,531229722,NASDAQ,USD,Common Stock,Communication Services,Entertainment,US
+LILA,Liberty Latin America Class A,G9001E102,NASDAQ,USD,Common Stock,Communication Services,Cable & Satellite,BM
+LILAK,Liberty Latin America Class C,G9001E128,NASDAQ,USD,Common Stock,Communication Services,Cable & Satellite,BM
+KO,Coca-Cola Co,191216100,NYSE,USD,Common Stock,Consumer Staples,Beverages,US
+KHC,Kraft Heinz Co,500754106,NASDAQ,USD,Common Stock,Consumer Staples,Packaged Foods & Meats,US
+STZ,Constellation Brands Class A,21036P108,NYSE,USD,Common Stock,Consumer Staples,Beverages,US
+DPZ,Domino's Pizza Inc,25754A201,NYSE,USD,Common Stock,Consumer Discretionary,Restaurants,US
+DHI,D.R. Horton Inc,23331A109,NYSE,USD,Common Stock,Consumer Discretionary,Homebuilding,US
+LEN,Lennar Corp Class A,526057104,NYSE,USD,Common Stock,Consumer Discretionary,Homebuilding,US
+LEN.B,Lennar Corp Class B,526057302,NYSE,USD,Common Stock,Consumer Discretionary,Homebuilding,US
+POOL,Pool Corp,73278L105,NASDAQ,USD,Common Stock,Industrials,Trading Companies & Distributors,US
+DVA,DaVita Inc,23918K108,NYSE,USD,Common Stock,Health Care,Health Care Facilities,US
+UNH,UnitedHealth Group Inc,91324P102,NYSE,USD,Common Stock,Health Care,Managed Health Care,US
+CVX,Chevron Corp,166764100,NYSE,USD,Common Stock,Energy,Integrated Oil & Gas,US
+OXY,Occidental Petroleum Corp,674599105,NYSE,USD,Common Stock,Energy,Oil & Gas Exploration & Production,US
+ALLE,Allegion plc,G0176J109,NYSE,USD,Common Stock,Industrials,Building Products,IE
+LLPX,Louisiana-Pacific Corp,546347105,NYSE,USD,Common Stock,Materials,Forest Products,US
+LPX,Louisiana-Pacific Corp,546347105,NYSE,USD,Common Stock,Materials,Forest Products,US
+NUE,Nucor Corp,670346105,NYSE,USD,Common Stock,Materials,Steel,US
+NVR,NVR Inc,62944T105,NYSE,USD,Common Stock,Consumer Discretionary,Homebuilding,US
+LAMR,Lamar Advertising Co Class A,512816109,NASDAQ,USD,Common Stock,Real Estate,Specialized REITs,US
+HEI.A,HEICO Corp Class A,422806208,NYSE,USD,Common Stock,Industrials,Aerospace & Defense,US
+KR,Kroger Co,501044101,NYSE,USD,Common Stock,Consumer Staples,Food & Staples Retailing,US
+DEO,Diageo plc ADR,25243Q205,NYSE,USD,ADR,Consumer Staples,Beverages,GB
+CB,Chubb Limited,H1467J104,NYSE,USD,Common Stock,Financials,Property & Casualty Insurance,CH

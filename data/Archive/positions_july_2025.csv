@@ -1,0 +1,11 @@
+ticker,quantity,unit_cost,trade_date,settlement_date,status,sector,industry,counterparty,trade_type
+AAPL,100,212.41,2025-07-10,2025-07-12,Settled,Technology,Consumer Electronics,Goldman Sachs,Buy
+MSFT,50,503.32,2025-07-11,2025-07-15,Settled,Technology,Software,Morgan Stanley,Buy
+GOOGL,75,180.19,2025-07-12,2025-07-16,Pending,Technology,Internet Services,JP Morgan,Sell
+AMZN,200,226.35,2025-07-15,2025-07-17,Pending,Consumer Discretionary,E-commerce,Citigroup,Buy
+TSLA,150,321.67,2025-07-16,2025-07-18,Pending,Consumer Discretionary,Automotive,Bank of America,Buy
+NVDA,80,173.0,2025-07-17,2025-07-21,Pending,Technology,Semiconductors,Goldman Sachs,Buy
+META,120,704.28,2025-07-18,2025-07-22,Pending,Technology,Internet Services,Morgan Stanley,Buy
+NFLX,90,1209.24,2025-07-19,2025-07-23,Pending,Consumer Discretionary,Entertainment,JP Morgan,Buy
+CRM,200,262.38,2025-07-20,2025-07-24,Pending,Technology,Software,Citigroup,Buy
+ADBE,150,367.68,2025-07-21,2025-07-25,Pending,Technology,Software,Bank of America,Buy

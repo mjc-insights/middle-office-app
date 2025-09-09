@@ -1,0 +1,8 @@
+trade_date,settlement_date,side,quantity,security_id,price,counterparty_legal_name,Rule Code,Exception Reason,_pass_schema,stp_ready,Category,Severity,Owner,Severity Label
+2025-08-14,2025-08-15,Buy,2000,BAC,47.71,ACME TEST BROKER LLC,unknown_counterparty,Counterparty not found or inactive,True,False,,,,⚪ Unknown
+2025-08-14,2025-08-15,Buy,750,KO,0.0,CITIGROUP GLOBAL MARKETS INC.,price_nonpositive,Price must be > 0,False,False,,,,⚪ Unknown
+2025-08-14,2025-08-15,,3000,AAPL,232.78,GOLDMAN SACHS & CO. LLC,presence_missing_field,Missing required field,False,False,,,,⚪ Unknown
+2025-08-14,2025-08-15,Buy,250,META,782.13,NATIONAL FINANCIAL SERVICES LLC,unknown_security,Security not found or inactive,True,False,,,,⚪ Unknown
+2025-08-14,2025-08-15,Sell,-1000,KR,69.23,"CHARLES SCHWAB & CO., INC.",quantity_nonpositive,Quantity must be > 0,False,False,,,,⚪ Unknown
+2025-08-14,2025-08-13,Buy,3000,LEN.B,15.32,"RBC CAPITAL MARKETS, LLC",bad_settlement_cycle,Settlement date does not match configured cycle,True,False,,,,⚪ Unknown
+2025-08-14,2025-08-15,Sell,1000,TSLA,335.58,DEUTSCHE BANK SECURITIES INC.,unknown_security,Security not found or inactive,True,False,,,,⚪ Unknown
