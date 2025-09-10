@@ -84,3 +84,7 @@ Roadmap
 ⦁	Build out Post-Settlement reconciliation to compare internal EOD positions to custodian records and confirm cash movements.
 ⦁	Expand rule catalog coverage and add more market locales.
 ⦁	Add broker confirm matching and automated affirmation metrics.
+
+👤 Author Miller C.
+
+This project is for demo purposes only.

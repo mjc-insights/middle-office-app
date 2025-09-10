@@ -17,3 +17,5 @@ __pycache__/
 *.log
 .vscode/
 .idea/
+
+run_app.ps1
